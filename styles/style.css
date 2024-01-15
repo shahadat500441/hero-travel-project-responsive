@@ -1,3 +1,71 @@
-body{
-    background-color: green;
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
+*{
+    font-family: 'Mulish', sans-serif;
+}
+
+/* header related style */
+header{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.nav-img{
+    display: flex;
+    align-items: center;
+   
+    
+}
+.nav-img img{
+    margin-right: 15px;
+    width: 3rem;
+    height: 3.5rem;
+}
+.nav-img h3{
+    color: #131318;
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+.nav-img .travel{
+    color: #FF5400;
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+nav{
+display: flex;
+justify-content: space-between;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+    
+}
+nav ul li{
+    list-style: none;
+    margin-right: 2.7rem;
+}
+nav ul .home{
+    color: #FF5400;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #424247;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:576px) {
+    nav,
+    nav > ul{
+        flex-direction: column;
+    }
+    .nav-img{
+        
+        margin: 0 auto;
+    }
+    nav ul li {
+        margin-bottom: 20px;
+    }
 }
