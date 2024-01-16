@@ -118,7 +118,7 @@ nav ul li a {
 
 /* banner related style */
 .banner {
-    background-image: url("Images/Group_13.png");
+    background-image: url("../Images/Group_13.png");
     background-size: cover;
     background-repeat: no-repeat;
     /* width: 1170px; */
