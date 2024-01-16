@@ -126,19 +126,19 @@ nav ul li a {
 
 .banner-input-section {
     display: flex;
-    gap: 2rem;
     border-radius: 8px;
-    background: rgba(255, 255, 255, 0.30);
-    padding: 1rem;
+background: rgba(255, 255, 255, 0.30);
+padding:1rem;
+gap:5px
 }
 
 .banner-input-section input,
 select {
- 
-    background-color: #FFF;
     border-radius: 8px;
-    padding: 1rem;
-    border: 0;
+    background: #FFF;
+    padding:1rem;
+    border:0;
+    
   
 
 }
@@ -153,6 +153,48 @@ select {
 }
 
 
+/* grid images relate style */
+.grid-text-container{
+    text-align: center;
+}
+
+.img-section1{
+    display: flex;
+   gap:1.5rem;
+}
+.img-section1 .one{
+    width: 50%;
+}
+.img-section1 .two{
+width: 50%;
+}
+.img-section2{
+    display: flex;
+    gap:1.5rem;
+    margin-top:1.5rem
+}
+.img-section2 .three{
+    width: 30%;
+}
+
+.img-section2 .four{
+    width:50%;
+}
+
+.img-section2 .five{
+    width: 20%;
+}
+.img-section3{
+    display: flex;
+    gap:1.5rem;
+    margin-top: 1.5rem;
+}
+.img-section3 .six{
+    width: 40%;
+}
+.img-section3 .seven{
+    width: 60%;
+}
 
 
 @media screen and (max-width:576px) {
@@ -160,7 +202,10 @@ select {
     nav,
     nav > ul,
     .banner-input-section,
-    .popular-container {
+    .popular-container,
+    .img-section1,
+    .img-section2,
+    .img-section3 {
         flex-direction: column;
     }
    .banner-text-container,
@@ -179,4 +224,26 @@ select {
     .popular-container {
         margin-bottom: 20px;
     }
+    .popular-img-section,
+    .popular-img-section .popular-img{
+        width: 100%;
+    }
+    .gird-img-container{
+        text-align: center;
+    }
+    
+    .img-section1,
+     .img-section1 .one,
+     .img-section1 .tow,
+    .img-section2,
+     .img-section2 .three,
+    .img-section2 .four,
+    .img-section2 .five,
+    .img-section3,
+    .img-section3 .six,
+    .img-section3 .seven{
+        width: 100%;
+    }
+
+    
 }
